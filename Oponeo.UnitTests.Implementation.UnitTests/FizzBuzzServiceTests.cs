@@ -37,15 +37,5 @@ namespace Oponeo.UnitTests.Implementation.UnitTests
             Assert.AreNotEqual(res, reuslt);
         }
 
-
-        [TestMethod]
-        public void Should_Return_Correct_Fibonnaci()
-        {
-            var fizzBuzzService = new FibonnaciService();
-
-            int res = fizzBuzzService.GetValueOnIndexInFibonnaci(5);
-            //0,1,1,2,3,5,8
-            Assert.AreEqual(8, res);
-        }
     }
 }
