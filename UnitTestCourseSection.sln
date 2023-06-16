@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oponeo.UnitTests.Implementation", "Oponeo.UnitTests.Implementation\Oponeo.UnitTests.Implementation.csproj", "{885B8B3D-C2D7-44A6-872C-798EAFBC9BEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oponeo.UnitTests.Implementation.UnitTests", "Oponeo.UnitTests.Implementation.UnitTests\Oponeo.UnitTests.Implementation.UnitTests.csproj", "{8D6E4ECF-0F6F-43BD-B9E3-2E258CF6615E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{885B8B3D-C2D7-44A6-872C-798EAFBC9BEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{885B8B3D-C2D7-44A6-872C-798EAFBC9BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{885B8B3D-C2D7-44A6-872C-798EAFBC9BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{885B8B3D-C2D7-44A6-872C-798EAFBC9BEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D6E4ECF-0F6F-43BD-B9E3-2E258CF6615E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D6E4ECF-0F6F-43BD-B9E3-2E258CF6615E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D6E4ECF-0F6F-43BD-B9E3-2E258CF6615E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D6E4ECF-0F6F-43BD-B9E3-2E258CF6615E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08558DE9-A1F8-4956-AA5E-2A9D0449B989}
+	EndGlobalSection
+EndGlobal
