@@ -10,8 +10,11 @@ namespace Oponeo.UnitTests.Implementation.UnitTests
     [TestClass]
     public class OrderProductCalculatorTests
     {
+
+        private List<OrderProduct> _products;
+
         [TestInitialize]
-        public List<OrderProduct> Products()
+        public void Products()
         {
             List<OrderProduct> products = new()
             {
@@ -33,14 +36,14 @@ namespace Oponeo.UnitTests.Implementation.UnitTests
                 }
             };
 
-            return products;
+            _products = products;
         }
 
         [TestMethod]
         public void Should_Return_200Sum_And_One_10Quantity_Discount()
         {
 
-            OrderProductCalculator calc = new(Products());
+            OrderProductCalculator calc = new(_products);
 
             double sum = calc.CalculateOrderPrice();
 
